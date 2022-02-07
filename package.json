@@ -15,6 +15,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "classnames": "^2.3.1",
     "gatsby": "^4.6.2",
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-plugin-postcss": "^5.6.0",
@@ -23,8 +25,16 @@
     "gatsby-source-filesystem": "^4.6.0",
     "gatsby-transformer-sharp": "^4.6.0",
     "postcss": "^8.4.6",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "postcss-comment": "^2.0.0",
+    "postcss-custom-properties": "^12.1.4",
+    "postcss-custom-selectors": "^6.0.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-preset-env": "^7.3.1",
+    "react": "^17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-inlinesvg": "^2.3.0",
+    "tailwindcss": "^3.0.18"
   }
 }
