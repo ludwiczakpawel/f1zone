@@ -18,10 +18,8 @@ const Home = () => {
         <p>Hi 👋</p>
         <p>
           This is a gallery of cars from all Formula 1 teams in 2022.
-          Reprehenderit adipisicing officia mollit velit reprehenderit excepteur
-          ullamco eiusmod officia dolore nostrud. Eu veniam id proident
-          incididunt fugiat enim irure adipisicing ex consequat ad. Nisi fugiat
-          et aliqua anim consectetur ullamco cupidatat.
+          I created it because I, personally, think 2022 cars will be probably the most beautiful cars in F1 history (at least almost).
+          This site is my side project as I couldn't wait for new cars to be revealed :).
         </p>
         <p>Cheers, Paweł. Wroom wroom! 🏎</p>
       </div>
