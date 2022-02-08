@@ -29,15 +29,13 @@ const Home = () => {
           <em>almost</em>).
         </p>
         <p>
-          It's a project (
-          <a
+          It's an <a
             href="https://github.com/ludwiczakpawel/f1zone"
             className="inline-block decoration-2 underline-offset-2 underline decoration-indigo-600 hover:text-indigo-600 transition-all"
             target="_blank"
           >
             open source
-          </a>
-          ) I created as I simply couldn't wait for new cars to be revealed 😍.
+          </a> project I created as I simply couldn't wait for new cars to be revealed 😍.
         </p>
         <p>
           Cheers,{" "}
