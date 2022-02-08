@@ -1,8 +1,6 @@
 import * as React from "react";
-import classNames from "classnames/bind";
 import PendingIcon from "../../../static/pending.svg";
 import TickIcon from "../../../static/tick.svg";
-import QuestionIcon from "../../../static/question.svg";
 import ExclamationIcon from "../../../static/exclamation.svg";
 import SVG from "react-inlinesvg";
 import Countdown from "react-countdown";
@@ -51,12 +49,7 @@ export const GridCell = (props) => {
 
   return (
     <a
-      className={classNames(
-        "flex relative items-center flex-col place-content-center p-8 group hover:rounded-2xl transition-all hover:scale-105 hover:z-10 hover:shadow-2xl hover:shadow-slate-700/40 dark:hover:shadow-black/50 dark:hover:bg-neutral-900/75",
-        {
-          [className]: className,
-        }
-      )}
+      className="flex relative items-center flex-col place-content-center p-8 group hover:rounded-2xl transition-all hover:scale-105 hover:z-10 hover:shadow-2xl hover:shadow-slate-700/40 dark:hover:shadow-black/50 dark:hover:bg-neutral-900/75"
       {...otherProps}
     >
       <div className="text-center transition-all group-hover:scale-150 group-hover:opacity-20 group-hover:blur-xl">

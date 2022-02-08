@@ -14,15 +14,14 @@ import WilliamsLogo from "/static/logos/williams.png";
 
 const Home = () => {
   return (
-    <main className="min-h-screen md:grid lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr gap-7 overflow-x-hidden p-10 bg-white dark:bg-black text-slate-700 dark:text-slate-200">
+    <main className="min-h-screen md:grid lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr gap-7 overflow-x-hidden p-6 sm:p-10 bg-white dark:bg-black text-slate-700 dark:text-slate-200">
       <Helmet>
         <title>🏎 Wroom wroom!</title>
       </Helmet>
-      <div className="flex gap-2 rounded-2xl p-10 flex-col bg-slate-50 dark:bg-neutral-900/50 place-content-center text-lg">
-        <p>Hi 👋</p>
+      <div className="flex gap-2 rounded-2xl p-7 sm:p-10 flex-col bg-slate-50 dark:bg-neutral-900 place-content-center text-lg">
         <p>
-          This site is (or actually <em>will be</em>) a gallery of F1 cars for
-          the upcoming 2022 season.
+          This site <em>will be</em> a gallery of F1 cars for the upcoming 2022
+          season.
         </p>
         <p>
           I created it because I <strong>personally</strong> think 2022 cars
@@ -30,8 +29,15 @@ const Home = () => {
           <em>almost</em>).
         </p>
         <p>
-          So it is my side project as I simply couldn't wait for new cars to be
-          revealed.
+          It's a project (
+          <a
+            href="https://github.com/ludwiczakpawel/f1zone"
+            className="inline-block decoration-2 underline-offset-2 underline decoration-indigo-600 hover:text-indigo-600 transition-all"
+            target="_blank"
+          >
+            open source
+          </a>
+          ) I created as I simply couldn't wait for new cars to be revealed 😍.
         </p>
         <p>
           Cheers,{" "}

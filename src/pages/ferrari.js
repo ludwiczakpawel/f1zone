@@ -1,29 +1,7 @@
 import * as React from "react"
 import { Helmet } from "react-helmet";
 import Logo from "/static/logos/ferrari.png";
-import Countdown from "react-countdown";
-
-const Completionist = () => {
-  return (
-    <div className="text-center text-2xl font-bold bg-amber-400 text-amber-900 px-6 py-4 shadow-xl shadow-amber-600/30 rounded-xl mt-3">
-      🥳 Todaaaay! 🎉
-    </div>
-  );
-};
-
-const renderer = ({ days, completed }) => {
-  if (completed) {
-    return <Completionist />;
-  } else {
-    return (
-      <div className="text-center text-2xl font-bold">
-        {days > 0
-          ? `Car will be revealed in ${days} ${days > 1 ? "days" : "day"}...`
-          : `Car will be revealed in less than a day!`}
-      </div>
-    );
-  }
-};
+import { Counter } from "../components/Counter";
 
 const Ferrari = () => {
   return (
@@ -39,7 +17,7 @@ const Ferrari = () => {
       </a>
       <img src={Logo} className="max-w-xs mx-auto" alt="Ferrari logo" />
       <h1 className="text-2xl">Scuderia Ferrari</h1>
-      <Countdown date={1645052400000} renderer={renderer} />
+      <Counter ms={1645052400000} />
     </main>
   );
 };
