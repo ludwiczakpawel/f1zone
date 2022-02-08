@@ -100,7 +100,12 @@ const Home = () => {
         logo={RedBullLogo}
         revealDate={1644361200000}
       />
-      <GridCell href="/williams" title="Williams Racing" logo={WilliamsLogo} />
+      <GridCell
+        href="/williams"
+        title="Williams Racing"
+        logo={WilliamsLogo}
+        revealDate={1644879600000}
+      />
     </main>
   );
 };

@@ -39,9 +39,7 @@ const Williams = () => {
       </a>
       <img src={Logo} className="max-w-xs mx-auto" alt="Williams logo" />
       <h1 className="text-2xl">Williams Racing</h1>
-      <div className="text-center text-2xl font-bold">
-        Car reveal date hasn't been announced yet.
-      </div>
+      <Countdown date={1644879600000} renderer={renderer} />
     </main>
   );
 };

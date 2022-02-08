@@ -66,13 +66,8 @@ export const GridCell = (props) => {
             <SVG src={TickIcon} width={21} height={21} />
             Car revealed!
           </div>
-        ) : revealDate ? (
-          <Countdown date={revealDate} renderer={renderer} />
         ) : (
-          <div className="inline-flex text-sm text-slate-400 dark:text-neutral-500 font-light p-2 px-3 rounded-lg gap-2">
-            <SVG src={QuestionIcon} width={21} height={21} />
-            Date not announced
-          </div>
+          <Countdown date={revealDate} renderer={renderer} />
         )}
       </div>
 
