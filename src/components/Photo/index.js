@@ -14,7 +14,7 @@ export const Photo = (props) => {
         <img
           src={src}
           alt=""
-          className="sm:rounded-3xl w-full transition-all blur-md opacity-0 group-hover:translate-y-10 group-hover:opacity-50 absolute top-0 group-hover:blur-xl"
+          className="sm:rounded-3xl w-full will-change-transform transition-all blur-xl opacity-0 group-hover:translate-y-12 group-hover:opacity-50 absolute top-0 scale-95"
         />
       </div>
       <aside className="basis-1/3 px-6 sm:px-0 pb-6 sm:self-end group-hover:translate-x-2 transition-all">
