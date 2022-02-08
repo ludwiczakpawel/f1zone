@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Titillium Web", "sans-serif"],
+        // sans: ["Titillium Web", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
       },
     },
   },

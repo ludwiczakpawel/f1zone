@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet";
 import { GridCell } from "../components/GridCell";
 import AlfaRomeoLogo from "/static/logos/alfaromeo.png";
 import AlphaTauriLogo from "/static/logos/alphatauri.png";
@@ -14,14 +15,35 @@ import WilliamsLogo from "/static/logos/williams.png";
 const Home = () => {
   return (
     <main className="min-h-screen md:grid lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr gap-7 overflow-x-hidden p-10 bg-white dark:bg-black text-slate-700 dark:text-slate-200">
+      <Helmet>
+        <title>🏎 Wroom wroom!</title>
+      </Helmet>
       <div className="flex gap-2 rounded-2xl p-10 flex-col bg-slate-50 dark:bg-neutral-900/50 place-content-center text-lg">
         <p>Hi 👋</p>
         <p>
-          This is a gallery of cars from all Formula 1 teams in 2022.
-          I created it because I, personally, think 2022 cars will be probably the most beautiful cars in F1 history (at least almost).
-          This site is my side project as I couldn't wait for new cars to be revealed :).
+          This site is (or actually <em>will be</em>) a gallery of F1 cars for
+          the upcoming 2022 season.
         </p>
-        <p>Cheers, Paweł. Wroom wroom! 🏎</p>
+        <p>
+          I created it because I <strong>personally</strong> think 2022 cars
+          will be the most beautiful cars in F1 history (or at least{" "}
+          <em>almost</em>).
+        </p>
+        <p>
+          So it is my side project as I simply couldn't wait for new cars to be
+          revealed.
+        </p>
+        <p>
+          Cheers,{" "}
+          <a
+            href="https://twitter.com/ludwiczakpawel"
+            className="inline-block decoration-2 underline-offset-2 underline decoration-indigo-600 hover:text-indigo-600 transition-all"
+            target="_blank"
+          >
+            Paweł
+          </a>
+          . Wroom wroom! 🏎
+        </p>
       </div>
       <GridCell
         href="/alfa-romeo"
@@ -36,7 +58,7 @@ const Home = () => {
         revealDate={1644793200000}
       />
       <GridCell
-        href="/"
+        href="/alpine"
         title="Alpine F1 Team"
         logo={AlpineLogo}
         revealDate={1645398000000}
@@ -56,7 +78,6 @@ const Home = () => {
       <GridCell
         href="/haas"
         title="Uralkali Haas F1 Team"
-        subtitle="Haas has revealed only 'new' painting on a standard F1 2022 livery."
         logo={HaasLogo}
         revealDate={1643929200000}
         revealed
@@ -79,11 +100,7 @@ const Home = () => {
         logo={RedBullLogo}
         revealDate={1644361200000}
       />
-      <GridCell
-        href="/williams"
-        title="Williams Racing"
-        logo={WilliamsLogo}
-      />
+      <GridCell href="/williams" title="Williams Racing" logo={WilliamsLogo} />
     </main>
   );
 };

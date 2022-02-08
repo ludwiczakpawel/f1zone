@@ -3,6 +3,7 @@ import classNames from "classnames/bind";
 import PendingIcon from "../../../static/pending.svg";
 import TickIcon from "../../../static/tick.svg";
 import QuestionIcon from "../../../static/question.svg";
+import ExclamationIcon from "../../../static/exclamation.svg";
 import SVG from "react-inlinesvg";
 import Countdown from "react-countdown";
 
@@ -20,8 +21,25 @@ const renderer = ({ days, completed }) => {
   } else {
     return (
       <div className="inline-flex text-sm text-slate-400 dark:text-neutral-500 font-light p-2 px-3 rounded-lg gap-2">
-        <SVG src={PendingIcon} width={21} height={21} />
-        Reveal in {days} {days > 1 ? "days" : "day"}
+        {days > 0 ? (
+          <>
+            <SVG src={PendingIcon} width={21} height={21} />
+            <p>
+              Car will be revealed in{" "}
+              <strong>
+                {days} {days > 1 ? "days" : "day"}
+              </strong>
+              ...
+            </p>
+          </>
+        ) : (
+          <>
+            <SVG src={ExclamationIcon} width={21} height={21} />
+            <p>
+              Car will be revealed in <strong>less than a day!</strong>...
+            </p>
+          </>
+        )}
       </div>
     );
   }
@@ -46,7 +64,7 @@ export const GridCell = (props) => {
         {revealed ? (
           <div className="inline-flex text-sm text-lime-600 p-2 px-3 rounded-lg gap-2">
             <SVG src={TickIcon} width={21} height={21} />
-            Revealed
+            Car revealed!
           </div>
         ) : revealDate ? (
           <Countdown date={revealDate} renderer={renderer} />
