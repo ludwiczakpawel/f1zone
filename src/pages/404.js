@@ -1,6 +1,5 @@
-import * as React from "react"
-import { Helmet } from "react-helmet";
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
 // styles
 const pageStyles = {

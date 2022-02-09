@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import PendingIcon from "../../../static/pending.svg";
 import TickIcon from "../../../static/tick.svg";
 import ExclamationIcon from "../../../static/exclamation.svg";
@@ -45,10 +46,11 @@ const renderer = ({ days, completed }) => {
 
 
 export const GridCell = (props) => {
-  const { logo, revealDate, revealed, title, subtitle, className, ...otherProps } = props;
+  const { logo, revealDate, revealed, title, href, subtitle, className, ...otherProps } = props;
 
   return (
-    <a
+    <Link
+      to={href}
       className="flex relative items-center flex-col place-content-center p-8 group hover:rounded-2xl transition-all hover:scale-105 hover:z-10 hover:shadow-2xl hover:shadow-slate-700/40 dark:hover:shadow-black/50 dark:hover:bg-neutral-900/75"
       {...otherProps}
     >
@@ -72,7 +74,7 @@ export const GridCell = (props) => {
           ""
         )}
       </div>
-    </a>
+    </Link>
   );
 };
 
