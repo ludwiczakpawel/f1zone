@@ -105,6 +105,7 @@ const Home = () => {
         title="Red Bull Racing"
         logo={RedBullLogo}
         revealDate={1644361200000}
+        revealed
       />
       <GridCell
         href="/williams"
