@@ -8,6 +8,7 @@ import Photo2 from "/static/astonmartin/2.jpeg";
 import Photo3 from "/static/astonmartin/3.jpeg";
 import Photo4 from "/static/astonmartin/4.jpeg";
 import Photo5 from "/static/astonmartin/5.jpeg";
+import Photo6 from "/static/astonmartin/6.jpeg";
 
 const AstonMartin = () => {
   return (
@@ -60,6 +61,12 @@ const AstonMartin = () => {
           src={Photo5}
           alt="AMR22 front wing"
           caption="Front wing."
+          source="Aston Martin press release"
+        />
+        <Photo
+          src={Photo6}
+          alt="AMR22 cockpit"
+          caption="Cockpit."
           source="Aston Martin press release"
         />
       </div>
