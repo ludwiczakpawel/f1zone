@@ -69,9 +69,10 @@ const Home = () => {
       />
       <GridCell
         href="/aston-martin"
-        title="Aston Martin Cognizant Formula One Team"
+        title="Aston Martin Aramco Cognizant F1 Team"
         logo={AstonMartinLogo}
         revealDate={1644447600000}
+        revealed
       />
       <GridCell
         href="/ferrari"

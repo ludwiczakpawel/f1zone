@@ -1,24 +1,61 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
+import { Photo } from "../components/Photo";
 import Logo from "/static/logos/astonmartin.png";
-import { Counter } from "../components/Counter";
+import Photo1 from "/static/astonmartin/1.jpeg";
+import Photo2 from "/static/astonmartin/2.jpeg";
+import Photo3 from "/static/astonmartin/3.jpeg";
+import Photo4 from "/static/astonmartin/4.jpeg";
 
 const AstonMartin = () => {
   return (
-    <main className="min-h-screen overflow-x-hidden sm:p-10 bg-white dark:bg-black text-slate-700 dark:text-neutral-300 flex items-center place-content-center flex-col">
+    <main className="min-h-screen overflow-x-hidden sm:p-10 bg-white dark:bg-black text-slate-700 dark:text-neutral-300">
       <Helmet>
         <title>🏎 Wroom wroom!</title>
       </Helmet>
-      <Link
-        to="/"
-        className="inline-block text-slate-400 hover:text-indigo-600 transition-all"
-      >
-        &laquo; Go back
-      </Link>
-      <img src={Logo} className="max-w-xs mx-auto" alt="Aston Martin logo" />
-      <h1 className="text-2xl">Aston Martin Cognizant Formula One Team</h1>
-      <Counter ms={1644447600000} />
+      <div className="max-w-screen-xl mx-auto flex flex-col gap-16">
+        <header className="text-center p-8 sm:p-0 mb-6">
+          <Link
+            to="/"
+            className="inline-block text-slate-400 hover:text-indigo-600 transition-all"
+          >
+            &laquo; Go back
+          </Link>
+          <img
+            src={Logo}
+            className="max-w-xs mx-auto"
+            alt="Aston Martin logo"
+          />
+          <h1 className="text-4xl font-bold">
+            Aston Martin Aramco Cognizant F1 Team
+          </h1>
+        </header>
+        <Photo
+          src={Photo1}
+          alt="AMR22 from front"
+          caption="Front of the car."
+          source="Aston Martin press release"
+        />
+        <Photo
+          src={Photo2}
+          alt="AMR22 from side"
+          caption="Side of the car."
+          source="Aston Martin press release"
+        />
+        <Photo
+          src={Photo3}
+          alt="AMR22 from back"
+          caption="Back of the car and rear wing."
+          source="Aston Martin press release"
+        />
+        <Photo
+          src={Photo4}
+          alt="AMR22 from top"
+          caption="Car from the top."
+          source="Aston Martin press release"
+        />
+      </div>
     </main>
   );
 };
