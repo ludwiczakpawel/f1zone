@@ -92,6 +92,7 @@ const Home = () => {
         title="McLaren F1 Team"
         logo={McLarenLogo}
         revealDate={1644534000000}
+        revealed
       />
       <GridCell
         href="/mercedes"
