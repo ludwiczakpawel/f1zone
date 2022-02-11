@@ -10,6 +10,7 @@ import Photo4 from "/static/astonmartin/4.jpeg";
 import Photo5 from "/static/astonmartin/5.jpeg";
 import Photo6 from "/static/astonmartin/6.jpeg";
 import Photo7 from "/static/astonmartin/7.jpeg";
+import Photo8 from "/static/astonmartin/8.jpeg";
 
 const AstonMartin = () => {
   return (
