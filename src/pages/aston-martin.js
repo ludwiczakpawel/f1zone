@@ -77,6 +77,13 @@ const AstonMartin = () => {
           caption="Cockpit again."
           source="Aston Martin press release"
         />
+
+        <Photo
+          src={Photo8}
+          alt="AMR22 on the track"
+          caption="First time on the track."
+          source="@AstonMartinF1 on Twitter"
+        />
       </div>
     </main>
   );

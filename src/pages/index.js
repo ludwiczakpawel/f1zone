@@ -63,7 +63,7 @@ const Home = () => {
       />
       <GridCell
         href="/alpine"
-        title="Alpine F1 Team"
+        title="BWT Alpine F1 Team"
         logo={AlpineLogo}
         revealDate={1645398000000}
       />
