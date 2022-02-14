@@ -7,6 +7,10 @@ import Photo1 from "/static/alphatauri/1.jpeg";
 import Photo2 from "/static/alphatauri/2.jpeg";
 import Photo3 from "/static/alphatauri/3.jpeg";
 import Photo4 from "/static/alphatauri/4.jpeg";
+import Photo5 from "/static/alphatauri/5.jpeg";
+import Photo6 from "/static/alphatauri/6.jpeg";
+import Photo7 from "/static/alphatauri/7.jpeg";
+import Photo8 from "/static/alphatauri/8.jpeg";
 
 const AlphaTauri = () => {
   return (
@@ -22,11 +26,7 @@ const AlphaTauri = () => {
           >
             &laquo; Go back
           </Link>
-          <img
-            src={Logo}
-            className="max-w-xs mx-auto"
-            alt="AlphaTauri logo"
-          />
+          <img src={Logo} className="max-w-xs mx-auto" alt="AlphaTauri logo" />
           <h1 className="text-4xl font-bold">Scuderia AlphaTauri</h1>
         </header>
         <Photo
@@ -51,6 +51,30 @@ const AlphaTauri = () => {
           src={Photo4}
           alt="Another side of the AT03"
           caption="Another side of the AT03."
+          source="AlphaTauri press release"
+        />
+        <Photo
+          src={Photo5}
+          alt="Car rendering in real scenery (?)"
+          caption="Car rendering in real scenery (?)"
+          source="AlphaTauri press release"
+        />
+        <Photo
+          src={Photo6}
+          alt="Car rendering in real scenery (?)"
+          caption="Car rendering in real scenery (?)"
+          source="AlphaTauri press release"
+        />
+        <Photo
+          src={Photo7}
+          alt="Car rendering in real scenery (?)"
+          caption="Car rendering in real scenery (?)"
+          source="AlphaTauri press release"
+        />
+        <Photo
+          src={Photo8}
+          alt="Car rendering in real scenery (?)"
+          caption="Car rendering in real scenery (?)"
           source="AlphaTauri press release"
         />
       </div>
