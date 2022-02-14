@@ -60,6 +60,7 @@ const Home = () => {
         title="Scuderia AlphaTauri"
         logo={AlphaTauriLogo}
         revealDate={1644793200000}
+        revealed
       />
       <GridCell
         href="/alpine"
