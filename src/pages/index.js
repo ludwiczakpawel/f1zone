@@ -113,6 +113,7 @@ const Home = () => {
         title="Williams Racing"
         logo={WilliamsLogo}
         revealDate={1644879600000}
+        revealed
       />
     </main>
   );
