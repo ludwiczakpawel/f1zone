@@ -13,8 +13,9 @@ import Photo7 from "/static/mercedes/7.jpg";
 import Photo8 from "/static/mercedes/8.jpg";
 import Photo9 from "/static/mercedes/9.jpg";
 import Photo10 from "/static/mercedes/10.jpeg";
+import Photo11 from "/static/mercedes/11.jpeg";
 
-const Ferrari = () => {
+const Mercedes = () => {
   return (
     <main className="min-h-screen overflow-x-hidden sm:p-10 bg-white dark:bg-black text-slate-700 dark:text-neutral-300">
       <Helmet>
@@ -91,9 +92,15 @@ const Ferrari = () => {
           caption="W13 on the track."
           source="@MercedesAMGF1 on Twitter"
         />
+        <Photo
+          src={Photo11}
+          alt="W13 on the track"
+          caption="W13 on the track."
+          source="@MercedesAMGF1 on Twitter"
+        />
       </div>
     </main>
   );
 };
 
-export default Ferrari;
+export default Mercedes;
