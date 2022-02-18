@@ -98,9 +98,10 @@ const Home = () => {
       />
       <GridCell
         href="/mercedes"
-        title="Mercedes-AMG Petronas Formula One Team"
+        title="Mercedes-AMG Petronas F1 Team"
         logo={MercedesLogo}
         revealDate={1645138800000}
+        revealed
       />
       <GridCell
         href="/red-bull"
