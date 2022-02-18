@@ -84,6 +84,12 @@ const Ferrari = () => {
           caption="W13 from the top."
           source="Mercedes press release"
         />
+        <Photo
+          src={Photo10}
+          alt="W13 on the track"
+          caption="W13 on the track."
+          source="@MercedesAMGF1 on Twitter"
+        />
       </div>
     </main>
   );
