@@ -78,7 +78,7 @@ const Ferrari = () => {
           source="Ferrari press release"
         />
         <Photo
-          src={Photo8}
+          src={Photo9}
           alt="F1-75 on the track"
           caption="F1-75 on the track"
           source="@ScuderiaFerrari on Twitter"
