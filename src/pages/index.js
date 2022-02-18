@@ -80,6 +80,7 @@ const Home = () => {
         title="Scuderia Ferrari"
         logo={FerrariLogo}
         revealDate={1645052400000}
+        revealed
       />
       <GridCell
         href="/haas"
