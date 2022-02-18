@@ -88,14 +88,14 @@ const Mercedes = () => {
         />
         <Photo
           src={Photo10}
-          alt="W13 on the track"
-          caption="W13 on the track."
+          alt="W13 on a track"
+          caption="W13 on a track."
           source="@MercedesAMGF1 on Twitter"
         />
         <Photo
           src={Photo11}
-          alt="W13 on the track"
-          caption="W13 on the track."
+          alt="W13 on a track"
+          caption="W13 on a track."
           source="@MercedesAMGF1 on Twitter"
         />
       </div>

@@ -79,8 +79,8 @@ const Ferrari = () => {
         />
         <Photo
           src={Photo9}
-          alt="F1-75 on the track"
-          caption="F1-75 on the track"
+          alt="F1-75 on a track"
+          caption="F1-75 on a track"
           source="@ScuderiaFerrari on Twitter"
         />
       </div>
