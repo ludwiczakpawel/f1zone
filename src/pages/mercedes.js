@@ -3,15 +3,16 @@ import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 import { Photo } from "../components/Photo";
 import Logo from "/static/logos/mercedes.png";
-import Photo1 from "/static/mercedes/1.jpeg";
-import Photo2 from "/static/mercedes/2.jpeg";
-import Photo3 from "/static/mercedes/3.jpeg";
-import Photo4 from "/static/mercedes/4.jpeg";
-import Photo5 from "/static/mercedes/5.jpeg";
-import Photo6 from "/static/mercedes/6.jpeg";
-import Photo7 from "/static/mercedes/7.jpeg";
-import Photo8 from "/static/mercedes/8.jpeg";
-import Photo9 from "/static/mercedes/9.jpeg";
+import Photo1 from "/static/mercedes/1.jpg";
+import Photo2 from "/static/mercedes/2.jpg";
+import Photo3 from "/static/mercedes/3.jpg";
+import Photo4 from "/static/mercedes/4.jpg";
+import Photo5 from "/static/mercedes/5.jpg";
+import Photo6 from "/static/mercedes/6.jpg";
+import Photo7 from "/static/mercedes/7.jpg";
+import Photo8 from "/static/mercedes/8.jpg";
+import Photo9 from "/static/mercedes/9.jpg";
+import Photo10 from "/static/mercedes/10.jpeg";
 
 const Ferrari = () => {
   return (
