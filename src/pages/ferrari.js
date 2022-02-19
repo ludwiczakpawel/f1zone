@@ -13,6 +13,9 @@ import Photo7 from "/static/ferrari/7.jpeg";
 import Photo8 from "/static/ferrari/8.jpeg";
 import Photo9 from "/static/ferrari/9.jpeg";
 import Photo10 from "/static/ferrari/10.jpeg";
+import Photo11 from "/static/ferrari/11.jpeg";
+import Photo12 from "/static/ferrari/12.jpeg";
+import Photo13 from "/static/ferrari/13.jpeg";
 
 const Ferrari = () => {
   return (
@@ -96,6 +99,18 @@ const Ferrari = () => {
           alt="F1-75 on a track"
           caption="F1-75 on a track"
           source="@SokolimOkiem on Twitter"
+        />
+        <Photo
+          src={Photo12}
+          alt="F1-75 on a track"
+          caption="F1-75 on a track"
+          source="@PartsfinderGP on Twitter"
+        />
+        <Photo
+          src={Photo13}
+          alt="F1-75 on a track"
+          caption="F1-75 on a track"
+          source="@PartsfinderGP on Twitter"
         />
       </div>
     </main>
