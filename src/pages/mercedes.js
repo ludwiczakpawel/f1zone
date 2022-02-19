@@ -14,6 +14,8 @@ import Photo8 from "/static/mercedes/8.jpg";
 import Photo9 from "/static/mercedes/9.jpg";
 import Photo10 from "/static/mercedes/10.jpeg";
 import Photo11 from "/static/mercedes/11.jpeg";
+import Photo12 from "/static/mercedes/12.jpeg";
+import Photo13 from "/static/mercedes/13.jpeg";
 
 const Mercedes = () => {
   return (
@@ -97,6 +99,18 @@ const Mercedes = () => {
           alt="W13 on a track"
           caption="W13 on a track."
           source="@MercedesAMGF1 on Twitter"
+        />
+        <Photo
+          src={Photo12}
+          alt="W13 on a track"
+          caption="W13 on a track."
+          source="@SokolimOkiem on Twitter"
+        />
+        <Photo
+          src={Photo13}
+          alt="W13 on a track"
+          caption="W13 on a track."
+          source="@SokolimOkiem on Twitter"
         />
       </div>
     </main>
