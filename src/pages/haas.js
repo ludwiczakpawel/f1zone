@@ -7,6 +7,9 @@ import Photo1 from "/static/haas/1.jpeg";
 import Photo2 from "/static/haas/2.jpeg";
 import Photo3 from "/static/haas/3.jpeg";
 import Photo4 from "/static/haas/4.jpeg";
+import Photo5 from "/static/haas/5.jpeg";
+import Photo6 from "/static/haas/6.jpeg";
+import Photo7 from "/static/haas/7.jpeg";
 
 const Haas = () => {
   return (
@@ -48,6 +51,24 @@ const Haas = () => {
           alt="Haas from back"
           caption="Funky back."
           source="Haas press release"
+        />
+        <Photo
+          src={Photo5}
+          alt="Haas on the track"
+          caption="Haas on the track."
+          source="@HaasF1Team on Twitter"
+        />
+        <Photo
+          src={Photo6}
+          alt="Haas on the track"
+          caption="Haas on the track."
+          source="@HaasF1Team on Twitter"
+        />
+        <Photo
+          src={Photo7}
+          alt="Haas on the track"
+          caption="Haas on the track."
+          source="@HaasF1Team on Twitter"
         />
       </div>
     </main>
