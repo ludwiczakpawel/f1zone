@@ -67,6 +67,7 @@ const Home = () => {
         title="BWT Alpine F1 Team"
         logo={AlpineLogo}
         revealDate={1645398000000}
+        revealed
       />
       <GridCell
         href="/aston-martin"

@@ -7,6 +7,7 @@ import Photo1 from "/static/mclaren/1.jpeg";
 import Photo2 from "/static/mclaren/2.jpeg";
 import Photo3 from "/static/mclaren/3.jpeg";
 import Photo4 from "/static/mclaren/4.jpeg";
+import Photo5 from "/static/mclaren/5.jpeg";
 
 const McLaren = () => {
   return (
@@ -48,6 +49,12 @@ const McLaren = () => {
           alt="MCL36 from the top"
           caption="MCL36 from the top."
           source="McLaren press release"
+        />
+        <Photo
+          src={Photo5}
+          alt="MCL36 on a track"
+          caption="MCL36 on a track."
+          source="@LandoNorris on Twitter"
         />
       </div>
     </main>

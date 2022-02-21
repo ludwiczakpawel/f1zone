@@ -10,6 +10,7 @@ import Photo4 from "/static/haas/4.jpeg";
 import Photo5 from "/static/haas/5.jpeg";
 import Photo6 from "/static/haas/6.jpeg";
 import Photo7 from "/static/haas/7.jpeg";
+import Photo8 from "/static/haas/8.jpeg";
 
 const Haas = () => {
   return (
@@ -66,6 +67,12 @@ const Haas = () => {
         />
         <Photo
           src={Photo7}
+          alt="Haas on the track"
+          caption="Haas on the track."
+          source="@HaasF1Team on Twitter"
+        />
+        <Photo
+          src={Photo8}
           alt="Haas on the track"
           caption="Haas on the track."
           source="@HaasF1Team on Twitter"
